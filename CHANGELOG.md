@@ -2,6 +2,9 @@
 
 ## 2.4.0
 - Reduce CPU usage on main UI thread
+- Added Dual CPU support for 3,1 on Sequoia! (Via acpi=2 boot-arg.)
+- If a no boot condition occurs, press spacebar in bootpicker and choose the Reset NVRAM tool.
+- Computer will reboot and it should boot into Sequoia with both cpus!
 
 ## 2.3.2
 - Resolve erroring in Passwords app and Safari Autofill on T1 Macs running 15.4 or later
