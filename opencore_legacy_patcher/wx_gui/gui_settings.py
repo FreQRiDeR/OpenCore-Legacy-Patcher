@@ -326,7 +326,7 @@ class SettingsFrame(wx.Frame):
                 },
                 "MacPro3,1/Xserve2,1 Workaround": {
                     "type": "checkbox",
-                    "value": self.constants.force_quad_thread,
+                    "value": self."enable_acpi_debug",
                     "variable": "enable_acpi_debug",
                     "description": [
                         "Enables both cpus on these units.",
