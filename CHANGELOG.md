@@ -2,6 +2,7 @@
 
 ## 2.4.1
 - Added Dual CPU support for macPRO 3,1 on Sequoia! (Via acpi=2 boot-arg.)
+- Ticking the 'MacPro3,1, XServe2,1 Workaround' now enables Dual CPUS io disabling one CPU.  
 - If a no boot condition occurs, press spacebar in bootpicker and choose the Reset NVRAM tool.
 - Computer will reboot and it should boot into Sequoia with both cpus!
 
