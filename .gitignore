@@ -39,7 +39,8 @@ __pycache__/
 /payloads/OpenCore-Patcher.app
 /.x86_64_venv
 *afdesign~lock~
-*._
+*._*
 ._.gitignore
 ._CHANGELOG.md
 ._README.md
+*._.*
