@@ -127,6 +127,8 @@ To run the project from source, see here: [Build and run from source](./SOURCE.m
   * UEFI bootx64.efi research
   * universal2 build research
   * Various documentation contributions
+* [FreQRiDeR](https://github.com/FreQRiDeR)
+  * Added Dual CPU Support for MacPRO 3,1 in Sequoia  
 * Amazing users who've graciously donate hardware:
   * [JohnD](https://forums.macrumors.com/members/johnd.53633/) - 2013 Mac Pro
   * [SpiGAndromeda](https://github.com/SpiGAndromeda) - AMD Vega 64
