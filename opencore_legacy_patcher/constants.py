@@ -169,7 +169,6 @@ class Constants:
         self.showpicker:     bool = True  # Show or Hide OpenCore's Boot Picker
         self.nvram_write:    bool = True  # Write to hardware NVRAM
         self.oc_timeout:      int = 5  #    Set OpenCore timeout
-        self.acpi_debug:      int = 5  #    Set ACPI Debug Level (1-8)
 
         ## Kext Settings
         self.kext_debug:  bool = False  # Enables Lilu debug and DebugEnhancer

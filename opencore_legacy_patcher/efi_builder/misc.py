@@ -368,10 +368,6 @@ xw
             logging.info(f"- Setting custom OpenCore picker timeout to {self.constants.oc_timeout} seconds")
             self.config["Misc"]["Boot"]["Timeout"] = self.constants.oc_timeout
 
-        if self.constants.acpi_debug != 5:
-            logging.info(f"- Setting custom ACPI DEBUG LEVEL to {self.constants.acpi_debug} seconds")
-            self.config["Misc"]["ACPI"]["DBG_LVL"] = self.constants.acpi_debug    
-
         if self.constants.vault is True:
             logging.info("- Setting Vault configuration")
             self.config["Misc"]["Security"]["Vault"] = "Secure"
