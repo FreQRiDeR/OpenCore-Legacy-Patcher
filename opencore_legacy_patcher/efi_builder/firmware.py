@@ -200,7 +200,7 @@ class BuildFirmware:
             support.BuildSupport(self.model, self.constants, self.config).get_item_by_kv(self.config["Kernel"]["Patch"], "Identifier", "com.apple.iokit.IOHIDFamily")["Enabled"] = True
 
         # MacPro3,1/Xserve2,1 cannot boot with more than 4 threads in Sequoia
-        # Note acpi=2 only overrides if more than 4 threads are present. So same on dual-core units
+        # Note acpi=2 only overrides if 3,1 Workaround is checked. For dual-core units
         if self.constants.acpi_debug is True:
             logging.info("- Adding acpi=2 Boot-Arg")
             self.config["NVRAM"]["Add"]["7C436110-AB2A-4BBB-A880-FE41995C9F82"]["boot-args"] += " acpi=2"
