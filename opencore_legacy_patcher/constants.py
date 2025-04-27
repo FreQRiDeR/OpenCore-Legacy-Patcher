@@ -235,12 +235,12 @@ class Constants:
         self.disable_connectdrivers: bool = False  # Disable ConnectDrivers (hibernation)
         self.set_vmm_cpuid:          bool = False  # Set VMM bit inside CPUID
         self.disable_mediaanalysisd: bool = False  # Set mediaanalysisd to spawn
-        self.enable_acpi_debug:      bool = False  #  Force quad thread mode (cpus=4)
-        self.set_alc_usage:          bool = True   #  Set AppleALC usage
-        self.allow_3rd_party_drives: bool = True   #  Allow ThridPartyDrives quirk
-        self.allow_nvme_fixing:      bool = True   #  Allow NVMe Kernel Space Patches
-        self.apfs_trim_timeout:      bool = True   #  Set APFS Trim timeout
-        self.custom_sip_value:        int = None   #  Set custom SIP value
+        self.enable_acpi_debug:      bool = False  # Enable ACPI DEBUG mode (acpi=2)
+        self.set_alc_usage:          bool = True   # Set AppleALC usage
+        self.allow_3rd_party_drives: bool = True   # Allow ThridPartyDrives quirk
+        self.allow_nvme_fixing:      bool = True   # Allow NVMe Kernel Space Patches
+        self.apfs_trim_timeout:      bool = True   # Set APFS Trim timeout
+        self.custom_sip_value:        int = None   # Set custom SIP value
 
         ## Non-Metal OS support
         self.legacy_accel_support = [
