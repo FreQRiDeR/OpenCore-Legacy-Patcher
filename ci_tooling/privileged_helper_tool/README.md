@@ -20,7 +20,10 @@ make debug
 ```
 
 Then when you build OpenCore-Patcher.pkg, the debug version of the helper tool will be used.
-
+If you are running root patches from source, then install the privileged helper tool with: 
+```
+sudo ./install.sh
+```
 
 ### Security Considerations
 
