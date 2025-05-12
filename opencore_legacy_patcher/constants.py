@@ -14,7 +14,7 @@ class Constants:
     def __init__(self) -> None:
         # Patcher Versioning
         self.patcher_version:                 str = "2.4.1"  # OpenCore-Legacy-Patcher
-        self.patcher_support_pkg_version:     str = "1.9.3"  # PatcherSupportPkg
+        self.patcher_support_pkg_version:     str = "1.9.5"  # PatcherSupportPkg
         self.copyright_date:                  str = "Copyright © 2020-2025 Dortania"
         self.patcher_name:                    str = "OpenCore Legacy Patcher"
 
@@ -22,7 +22,7 @@ class Constants:
         self.url_patcher_support_pkg:         str = "https://github.com/dortania/PatcherSupportPkg/releases/download/"
         self.discord_link:                    str = "https://discord.gg/rqdPgH8xSN"
         self.guide_link:                      str = "https://dortania.github.io/OpenCore-Legacy-Patcher/"
-        self.repo_link:                       str = "https://github.com/FreQRiDeR/OpenCore-Legacy-Patcher"
+        self.repo_link:                       str = "https://github.com/dortania/OpenCore-Legacy-Patcher"
         self.installer_pkg_url:               str = f"{self.repo_link}/releases/download/{self.patcher_version}/AutoPkg-Assets.pkg"
         self.installer_pkg_url_nightly:       str = "http://nightly.link/dortania/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/main/AutoPkg-Assets.pkg.zip"
 
@@ -235,12 +235,12 @@ class Constants:
         self.disable_connectdrivers: bool = False  # Disable ConnectDrivers (hibernation)
         self.set_vmm_cpuid:          bool = False  # Set VMM bit inside CPUID
         self.disable_mediaanalysisd: bool = False  # Set mediaanalysisd to spawn
-        self.enable_acpi_debug:      bool = False  # Enable ACPI DEBUG mode (acpi=2)
-        self.set_alc_usage:          bool = True   # Set AppleALC usage
-        self.allow_3rd_party_drives: bool = True   # Allow ThridPartyDrives quirk
-        self.allow_nvme_fixing:      bool = True   # Allow NVMe Kernel Space Patches
-        self.apfs_trim_timeout:      bool = True   # Set APFS Trim timeout
-        self.custom_sip_value:        int = None   # Set custom SIP value
+        self.force_quad_thread:      bool = False #  Force quad thread mode (cpus=4)
+        self.set_alc_usage:          bool = True  #  Set AppleALC usage
+        self.allow_3rd_party_drives: bool = True  #  Allow ThridPartyDrives quirk
+        self.allow_nvme_fixing:      bool = True  #  Allow NVMe Kernel Space Patches
+        self.apfs_trim_timeout:      bool = True  #  Set APFS Trim timeout
+        self.custom_sip_value:        int = None  #  Set custom SIP value
 
         ## Non-Metal OS support
         self.legacy_accel_support = [
