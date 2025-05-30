@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OpenCore Legacy Patcher</key>
+	<string>v2.4.1</string>
+	<key>PatcherSupportPkg</key>
+	<string>v1.9.5</string>
+	<key>Time Patched</key>
+	<string>May 13, 2025 @ 21:15:39</string>
+	<key>Commit URL</key>
+	<string></string>
+	<key>Kernel Debug Kit Used</key>
+	<string>/Library/Developer/KDKs/KDK_15.3.1_24D70.kdk</string>
+	<key>Metal Library Used</key>
+	<string>Not applicable</string>
+	<key>OS Version</key>
+	<string>24.3 (24D70)</string>
+	<key>Custom Signature</key>
+	<true/>
+	<key>Monterey OpenCL</key>
+	<dict>
+		<key>Merge System Volume</key>
+		<dict>
+			<key>/System/Library/Frameworks</key>
+			<dict>
+				<key>OpenCL.framework</key>
+				<string>12.5</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>AMD Polaris</key>
+	<dict>
+		<key>Overwrite System Volume</key>
+		<dict>
+			<key>/System/Library/Extensions</key>
+			<dict>
+				<key>AMDRadeonX4000.kext</key>
+				<string>12.5-23.4</string>
+				<key>AMDRadeonX4000HWServices.kext</key>
+				<string>12.5</string>
+				<key>AMDRadeonVADriver2.bundle</key>
+				<string>12.5</string>
+				<key>AMDRadeonX4000GLDriver.bundle</key>
+				<string>12.5</string>
+				<key>AMDMTLBronzeDriver.bundle</key>
+				<string>12.5-24</string>
+				<key>AMDShared.bundle</key>
+				<string>12.5</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>AMD OpenCL</key>
+	<dict>
+		<key>Merge System Volume</key>
+		<dict>
+			<key>/System/Library/Frameworks</key>
+			<dict>
+				<key>OpenCL.framework</key>
+				<string>12.5 non-AVX2.0</string>
+				<key>OpenGL.framework</key>
+				<string>12.5 non-AVX2.0</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Revert Monterey GVA</key>
+	<dict>
+		<key>Remove System Volume</key>
+		<dict>
+			<key>/System/Library/PrivateFrameworks/AppleGVA.framework/Versions/A</key>
+			<array>
+				<string>AppleGVA</string>
+			</array>
+			<key>/System/Library/PrivateFrameworks/AppleGVACore.framework/Versions/A</key>
+			<array>
+				<string>AppleGVACore</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Legacy Wireless</key>
+	<dict>
+		<key>Overwrite System Volume</key>
+		<dict>
+			<key>/usr/libexec</key>
+			<dict>
+				<key>airportd</key>
+				<string>11.7.10-Sandbox</string>
+			</dict>
+			<key>/System/Library/CoreServices</key>
+			<dict>
+				<key>WiFiAgent.app</key>
+				<string>11.7.10</string>
+			</dict>
+		</dict>
+		<key>Overwrite Data Volume</key>
+		<dict>
+			<key>/Library/Application Support/SkyLightPlugins</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>Legacy Wireless Extended</key>
+	<dict>
+		<key>Overwrite System Volume</key>
+		<dict>
+			<key>/usr/libexec</key>
+			<dict>
+				<key>wps</key>
+				<string>12.7.2-24</string>
+				<key>wifip2pd</key>
+				<string>12.7.2-24</string>
+			</dict>
+		</dict>
+		<key>Merge System Volume</key>
+		<dict>
+			<key>/System/Library/Frameworks</key>
+			<dict>
+				<key>CoreWLAN.framework</key>
+				<string>12.7.2-24</string>
+			</dict>
+			<key>/System/Library/PrivateFrameworks</key>
+			<dict>
+				<key>CoreWiFi.framework</key>
+				<string>12.7.2-24</string>
+				<key>IO80211.framework</key>
+				<string>12.7.2-24</string>
+				<key>WiFiPeerToPeer.framework</key>
+				<string>12.7.2-24</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Legacy USB 1.1</key>
+	<dict>
+		<key>Overwrite System Volume</key>
+		<dict>
+			<key>/System/Library/Extensions</key>
+			<dict>
+				<key>IOUSBHostFamily.kext</key>
+				<string>12.6.2-23.4</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Legacy USB 1.1 Extended</key>
+	<dict>
+		<key>Overwrite System Volume</key>
+		<dict>
+			<key>/System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns</key>
+			<dict>
+				<key>AppleUSBOHCI.kext</key>
+				<string>12.6.2-USB</string>
+				<key>AppleUSBOHCIPCI.kext</key>
+				<string>12.6.2-USB</string>
+				<key>AppleUSBUHCI.kext</key>
+				<string>12.6.2-USB</string>
+				<key>AppleUSBUHCIPCI.kext</key>
+				<string>12.6.2-USB</string>
+			</dict>
+			<key>/System/Library/Extensions</key>
+			<dict>
+				<key>AppleUSBAudio.kext</key>
+				<string>14.5</string>
+				<key>AppleUSBCDC.kext</key>
+				<string>14.5</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Legacy USB 1.1 Webcam</key>
+	<dict>
+		<key>Merge System Volume</key>
+		<dict>
+			<key>/System/Library/Frameworks</key>
+			<dict>
+				<key>IOUSBHost.framework</key>
+				<string>14.6.1</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
