@@ -5,7 +5,7 @@
 	<key>OpenCore Legacy Patcher</key>
 	<string>v2.4.1</string>
 	<key>PatcherSupportPkg</key>
-	<string>v1.9.5</string>
+	<string>v1.9.3</string>
 	<key>Time Patched</key>
 	<string>May 13, 2025 @ 21:15:39</string>
 	<key>Commit URL</key>
@@ -160,17 +160,6 @@
 				<string>14.5</string>
 				<key>AppleUSBCDC.kext</key>
 				<string>14.5</string>
-			</dict>
-		</dict>
-	</dict>
-	<key>Legacy USB 1.1 Webcam</key>
-	<dict>
-		<key>Merge System Volume</key>
-		<dict>
-			<key>/System/Library/Frameworks</key>
-			<dict>
-				<key>IOUSBHost.framework</key>
-				<string>14.6.1</string>
 			</dict>
 		</dict>
 	</dict>
