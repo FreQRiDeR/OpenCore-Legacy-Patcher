@@ -5,17 +5,17 @@
 	<key>OpenCore Legacy Patcher</key>
 	<string>v2.4.1</string>
 	<key>PatcherSupportPkg</key>
-	<string>v1.9.3</string>
+	<string>v1.9.5</string>
 	<key>Time Patched</key>
-	<string>May 13, 2025 @ 21:15:39</string>
+	<string>June 05, 2025 @ 12:55:19</string>
 	<key>Commit URL</key>
 	<string></string>
 	<key>Kernel Debug Kit Used</key>
-	<string>/Library/Developer/KDKs/KDK_15.3.1_24D70.kdk</string>
+	<string>/Library/Developer/KDKs/KDK_14.7.6_23H626.kdk</string>
 	<key>Metal Library Used</key>
 	<string>Not applicable</string>
 	<key>OS Version</key>
-	<string>24.3 (24D70)</string>
+	<string>23.6 (23H626)</string>
 	<key>Custom Signature</key>
 	<true/>
 	<key>Monterey OpenCL</key>
@@ -44,7 +44,7 @@
 				<key>AMDRadeonX4000GLDriver.bundle</key>
 				<string>12.5</string>
 				<key>AMDMTLBronzeDriver.bundle</key>
-				<string>12.5-24</string>
+				<string>12.5</string>
 				<key>AMDShared.bundle</key>
 				<string>12.5</string>
 			</dict>
@@ -105,9 +105,9 @@
 			<key>/usr/libexec</key>
 			<dict>
 				<key>wps</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 				<key>wifip2pd</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 			</dict>
 		</dict>
 		<key>Merge System Volume</key>
@@ -115,16 +115,16 @@
 			<key>/System/Library/Frameworks</key>
 			<dict>
 				<key>CoreWLAN.framework</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 			</dict>
 			<key>/System/Library/PrivateFrameworks</key>
 			<dict>
 				<key>CoreWiFi.framework</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 				<key>IO80211.framework</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 				<key>WiFiPeerToPeer.framework</key>
-				<string>12.7.2-24</string>
+				<string>12.7.2</string>
 			</dict>
 		</dict>
 	</dict>
@@ -155,12 +155,7 @@
 				<string>12.6.2-USB</string>
 			</dict>
 			<key>/System/Library/Extensions</key>
-			<dict>
-				<key>AppleUSBAudio.kext</key>
-				<string>14.5</string>
-				<key>AppleUSBCDC.kext</key>
-				<string>14.5</string>
-			</dict>
+			<dict/>
 		</dict>
 	</dict>
 </dict>

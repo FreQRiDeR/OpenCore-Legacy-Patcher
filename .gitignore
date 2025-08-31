@@ -46,3 +46,5 @@ __pycache__/
 *._.*
 Pull changes from upstream.pdf
 venv*
+payloads/Universal-Binaries_overlay
+payloads/Universal-Binaries_overlay
